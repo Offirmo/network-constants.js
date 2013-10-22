@@ -24,26 +24,20 @@ requirejs.config({
 
 	/////////////////////
 	paths: {
+		// AMD plugins (dirs or direct)
+		"network-constants" : "..", // dir
 		// shim plugins
 		"chai"             : "bower_components/chai/chai",
-		"jquery"           : "bower_components/jquery/jquery",
-		"mocha"            : "bower_components/mocha/mocha",
-		// AMD plugins (dirs or direct)
-		"network-constants" : ".." // dir
+		"mocha"            : "bower_components/mocha/mocha"
 	},
 
 
 	/////////////////////
 	shim: {
-		"jquery": {
-			exports: [ "$", "jQuery" ]
-		},
 		"mocha" : {
-			deps: [
-				"jquery"
-			],
+			deps: [ ],
 			exports: "mocha",
-			init: function (jquery) {
+			init: function () {
 				console.log("Hello from mocha shim ! Setting up mocha...");
 				this.mocha.setup("bdd");
 				return this.mocha;
