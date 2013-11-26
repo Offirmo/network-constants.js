@@ -4,8 +4,11 @@
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
-		"amdefine":           "latest",
-		"chai":               "latest",
-		"mocha":              "latest"
+		
+		"network-constants.js":    "latest",
+		
+		"amdefine":                "latest",
+		"chai":                    "latest",
+		"mocha":                   "latest"
 	}
 }

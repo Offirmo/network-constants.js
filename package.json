@@ -1,21 +1,24 @@
 {
-	"name": "network-constants.js",
+	"name": "network-constants",
 	"version": "0.9.0",
 	"description": "a bunch of network (mainly HTTP) constants for js programs (node + browser), AMD",
-	"keywords": [
-		"exceptions",
-		"browser",
-		"server"
-	],
+	"keywords": "network, constants, http, protocol, browser, server",
 	"license": "public domain",
 	"author": "Offirmo <offirmo.net@gmail.com> (http://offirmo.net)",
+	"homepage": "https://github.com/Offirmo/network-constants.js",
 	"repository": {
 		"type": "git",
-		"url":  "https://github.com/Offirmo/network-constants.js.git"
+		"url": "https://github.com/Offirmo/network-constants.js.git"
 	},
 	"dependencies": {
 	},
 	"engines": {
-		"node": ">=0.6"
+		"node": ">=0.10.0"
+	},
+	"bugs": {
+		"url": "https://github.com/Offirmo/network-constants.js/issues"
+	},
+	"scripts": {
+		"test": "cd test_runner && npm install && make"
 	}
 }
