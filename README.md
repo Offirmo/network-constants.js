@@ -1,6 +1,8 @@
 network-constants.js
 ====================
 
+[![Build Status](https://travis-ci.org/Offirmo/network-constants.js.png?branch=master)](https://travis-ci.org/Offirmo/network-constants.js)
+
 Introduction
 ------------
 
