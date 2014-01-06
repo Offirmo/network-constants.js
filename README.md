@@ -1,7 +1,7 @@
 network-constants.js
 ====================
 
-[![Build Status](https://travis-ci.org/Offirmo/network-constants.js.png?branch=master)](https://travis-ci.org/Offirmo/network-constants.js)
+[![Build Status](https://travis-ci.org/Offirmo/network-constants.js.png?branch=master)](https://travis-ci.org/Offirmo/network-constants.js) [![status](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/badges/status.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js) [![Total views](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/counters/views.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
 
 Introduction
 ------------
@@ -34,6 +34,11 @@ function(http_constants) {
 	...
 ```
 
+Installation
+------------
+
+Bower : `bower install network-constants.js`
+Npm : `npm install network-constants`
 
 Unit tests
 ----------
