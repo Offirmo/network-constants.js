@@ -9,5 +9,7 @@
 	],
 	"license": "public domain",
 	"authors": [ "Offirmo <offirmo.net@gmail.com>" ],
-	"homepage": "https://github.com/Offirmo/network-constants.js"
+	"homepage": "https://github.com/Offirmo/network-constants.js",
+	"dependencies": {
+	}
 }

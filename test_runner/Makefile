@@ -4,6 +4,7 @@ test:
 	mkdir  node_modules/network-constants
 	cp -r ../*.js         node_modules/network-constants
 	cp -r ../package.json node_modules/network-constants
+	cp -r ../README.md    node_modules/network-constants
 	cp -r ../spec         node_modules/network-constants
 	./node_modules/.bin/mocha \
 		--debug \

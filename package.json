@@ -11,6 +11,7 @@
 		"url": "https://github.com/Offirmo/network-constants.js.git"
 	},
 	"dependencies": {
+		"amdefine": "~0.1"
 	},
 	"engines": {
 		"node": ">=0.10.0"
