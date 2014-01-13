@@ -1,6 +1,6 @@
 {
 	"name": "network-constants",
-	"version": "0.9.1-beta",
+	"version": "0.9.1",
 	"description": "a bunch of network (mainly HTTP) constants for js programs (node + browser), AMD",
 	"keywords": "network, constants, http, protocol, browser, server",
 	"license": "public domain",
