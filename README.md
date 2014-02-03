@@ -1,11 +1,16 @@
 network-constants.js
 ====================
 
+[![Project status](http://img.shields.io/badge/project_status-stable_and_active-brightgreen.svg)](http://offirmo.net/classifying-open-source-projects-status/)
 [![Build Status](https://travis-ci.org/Offirmo/network-constants.js.png?branch=master)](https://travis-ci.org/Offirmo/network-constants.js)
 [![NPM version](https://badge.fury.io/js/network-constants.png)](http://badge.fury.io/js/network-constants)
 [![Bower version](https://badge.fury.io/bo/network-constants.js.png)](http://badge.fury.io/bo/network-constants.js)
+[![license](http://img.shields.io/badge/license-public_domain-brightgreen.svg](http://unlicense.org/)
+[![Dependency Status](https://gemnasium.com/Offirmo/network-constants.js.png)](https://gemnasium.com/Offirmo/network-constants.js)
+[![Code Climate](https://codeclimate.com/github/Offirmo/network-constants.js.png)](https://codeclimate.com/github/Offirmo/network-constants.js)
 [![status](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/badges/status.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
 [![Total views](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/counters/views.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
+[![Gittip](http://img.shields.io/gittip/Offirmo.png)](https://www.gittip.com/Offirmo/)
 
 Introduction
 ------------
@@ -17,6 +22,8 @@ Useful when developing network programs or if you want to use HTTP semantics.
 Works in node.js + browser, AMD.
 
 Full testsuite. No dependencies.
+
+License : public domain (http://unlicense.org/)
 
 Fell free to suggest and contribute.
 
