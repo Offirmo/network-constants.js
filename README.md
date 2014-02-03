@@ -5,7 +5,7 @@ network-constants.js
 [![Build Status](https://travis-ci.org/Offirmo/network-constants.js.png?branch=master)](https://travis-ci.org/Offirmo/network-constants.js)
 [![NPM version](https://badge.fury.io/js/network-constants.png)](http://badge.fury.io/js/network-constants)
 [![Bower version](https://badge.fury.io/bo/network-constants.js.png)](http://badge.fury.io/bo/network-constants.js)
-[![license](http://img.shields.io/badge/license-public_domain-brightgreen.png](http://unlicense.org/)
+[![license](http://img.shields.io/badge/license-public_domain-brightgreen.png)](http://unlicense.org/)
 [![Dependency Status](https://gemnasium.com/Offirmo/network-constants.js.png)](https://gemnasium.com/Offirmo/network-constants.js)
 [![Code Climate](https://codeclimate.com/github/Offirmo/network-constants.js.png)](https://codeclimate.com/github/Offirmo/network-constants.js)
 [![status](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/badges/status.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
