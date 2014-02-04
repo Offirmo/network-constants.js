@@ -117,6 +117,10 @@ define(function() {
 			'Warning':             undefined // A general warning about possible problems with the entity body.
 		},
 
+		'response_headers' : {
+			'Location':            undefined // Used in redirection, or when a new resource has been created.
+		},
+
 		'content_types': {
 			'application' : {
 				'json' : 'application/json',

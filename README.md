@@ -15,9 +15,9 @@ network-constants.js
 Introduction
 ------------
 
-Just a bunch of network (only HTTP for now) constants for js programs.
+A clean declaration of network constants (only HTTP for now) for js programs.
 
-Useful when developing network programs or if you want to use HTTP semantics.
+Useful when developing network programs or if you want to use HTTP semantics (REST API).
 
 Works in node.js + browser, AMD.
 
@@ -27,11 +27,21 @@ License : public domain (http://unlicense.org/)
 
 Fell free to suggest and contribute.
 
+Interesting reads :
+http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+http://www.codeshttp.com/  (us / french)
+http://benramsey.com/blog/2009/02/http-status-100-continue-corrections/
+http://benramsey.com/blog/2008/04/http-status-201-created-vs-202-accepted/
+http://benramsey.com/blog/2008/05/http-status-204-no-content-and-205-reset-content/
+http://benramsey.com/blog/2008/05/206-partial-content-and-range-requests/
+http://benramsey.com/blog/2009/11/post-vs-put/
 
 Usage
 -----
 
 ```javascript
+if (typeof define !== 'function') { var define = require('amdefine')(module); } // node only
+
 define(
 [
 	'network-constants/http'
@@ -54,4 +64,5 @@ Npm : `npm install network-constants`
 Unit tests
 ----------
 
-in the 'spec' folder. See also readme.txt in the 'test_runner' folder.
+Browser : open test_runner/mocha.html
+Node : `npm test`
