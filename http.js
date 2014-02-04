@@ -31,25 +31,27 @@ define(function() {
 			status_102_processing : 102, // the server has received and is processing the request, but no response is available yet.[3] This prevents the client from timing out and assuming the request was lost.
 
 			// 200 : success
-			status_200_ok:            200,
+			status_200_ok:            200, // success, a response is returned
 			status_201_created:       201,
-			status_204_ok_no_content: 204,
+			status_204_ok_no_content: 204, // success, with nothing special to return (ex. delete)
 
 			// 300 redirection
 
 			// 400 : Client errors
-			status_400_client_error_bad_request:          400,
-			status_401_client_unauthorized:               401,
-			status_403_client_forbidden:                  403,
-			status_404_client_error_not_found:            404,
-			status_405_client_error_method_not_allowed:   405,
-			status_414_client_error_request_uri_too_long: 414,
+			status_400_client_error_bad_request:              400,
+			status_401_client_unauthorized:                   401,
+			status_403_client_forbidden:                      403, // used when the server doesn't want to explain why it refused the request
+			status_404_client_error_not_found:                404,
+			status_405_client_error_method_not_allowed:       405, // method not supported for this url
+			status_406_client_error_not_acceptable:           406, // content type is not handled
+			status_413_client_error_request_entity_too_large: 413,
+			status_414_client_error_request_uri_too_long:     414,
 
 			// 500 : Server error
 			status_500_server_error_internal_error:  500,
 			status_501_server_error_not_implemented: 501,
 			status_502_bad_gateway:                  502,
-			status_503_client_forbidden:             503,
+			status_503_service_unavailable:          503, // maybe temporary overloading
 			status_504_server_error_gateway_timeout: 504,
 			status_507_insufficient_storage:         507
 		},
@@ -67,6 +69,8 @@ define(function() {
 			403 : "Forbidden",
 			404 : "Not Found",
 			405 : "Method Not Allowed",
+			406 : "Not Acceptable",
+			413 : "Request Entity Too Large",
 			414 : "Request-URI Too Long",
 
 			500 : "Internal Server Error",
