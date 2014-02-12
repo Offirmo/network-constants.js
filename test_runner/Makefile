@@ -28,3 +28,4 @@ jt:
 		node_modules/network-constants/spec/*
 
 .PHONY: test
+.PHONY: jt

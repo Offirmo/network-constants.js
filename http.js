@@ -82,6 +82,7 @@ define(function() {
 		},
 
 		// http://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+		// TODO redesign
 		'request_headers' : {
 			'Accept':              undefined, // Content-Types that are acceptable for the response 	Accept: text/plain 	Permanent
 			'Accept-Charset':      undefined, // Character sets that are acceptable 	Accept-Charset: utf-8
@@ -117,7 +118,20 @@ define(function() {
 			'Warning':             undefined // A general warning about possible problems with the entity body.
 		},
 
+		// TODO redesign
 		'response_headers' : {
+			// CORS http://www.w3.org/TR/cors/
+			'Access-Control-Allow-Origin':      undefined,
+			'Access-Control-Allow-Credentials': undefined,
+			'Access-Control-Expose-Headers':    undefined,
+			'Access-Control-Max-Age':           undefined,
+			'Access-Control-Allow-Methods':     undefined,
+			'Access-Control-Allow-Headers':     undefined,
+			'Origin Request Header':            undefined,
+			'Access-Control-Request-Method':    undefined,
+			'Access-Control-Request-Headers':   undefined,
+			//
+			'Allow':               undefined, // Used in OPTIONS
 			'Location':            undefined // Used in redirection, or when a new resource has been created.
 		},
 
