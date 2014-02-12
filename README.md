@@ -5,12 +5,12 @@ network-constants.js
 [![NPM version](https://badge.fury.io/js/network-constants.png)](http://badge.fury.io/js/network-constants)
 [![Bower version](https://badge.fury.io/bo/network-constants.js.png)](http://badge.fury.io/bo/network-constants.js)
 [![Dependency Status](https://gemnasium.com/Offirmo/network-constants.js.png)](https://gemnasium.com/Offirmo/network-constants.js)
-[![Project status](http://img.shields.io/badge/project_status-stable_and_active-brightgreen.png)](http://offirmo.net/classifying-open-source-projects-status/)
-[![license](http://img.shields.io/badge/license-public_domain-brightgreen.png)](http://unlicense.org/)
+[![Project status](http://img.shields.io/badge/project_status-stable_and_active-brightgreen.svg)](http://offirmo.net/classifying-open-source-projects-status/)
+[![license](http://img.shields.io/badge/license-public_domain-brightgreen.svg)](http://unlicense.org/)
 [![Code Climate](https://codeclimate.com/github/Offirmo/network-constants.js.png)](https://codeclimate.com/github/Offirmo/network-constants.js)
 [![status](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/badges/status.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
 [![Total views](https://sourcegraph.com/api/repos/github.com/Offirmo/network-constants.js/counters/views.png)](https://sourcegraph.com/github.com/Offirmo/network-constants.js)
-[![Gittip](http://img.shields.io/gittip/Offirmo.png)](https://www.gittip.com/Offirmo/)
+[![Gittip](http://img.shields.io/gittip/Offirmo.svg)](https://www.gittip.com/Offirmo/)
 
 Introduction
 ------------
