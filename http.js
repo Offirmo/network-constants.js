@@ -2,7 +2,7 @@
 if (typeof define !== 'function') { var define = require('amdefine')(module); }
 
 define(function() {
-	"use strict";
+	'use strict';
 
 	var http_constants = {
 
@@ -57,28 +57,28 @@ define(function() {
 		},
 
 		'status_messages': {
-			100 : "Continue",
-			102 : "Processing",
+			100 : 'Continue',
+			102 : 'Processing',
 
-			200 : "OK",
-			201 : "Created",
-			204 : "No content",
+			200 : 'OK',
+			201 : 'Created',
+			204 : 'No content',
 
-			400 : "Bad Request",
-			401 : "Unauthorized",
-			403 : "Forbidden",
-			404 : "Not Found",
-			405 : "Method Not Allowed",
-			406 : "Not Acceptable",
-			413 : "Request Entity Too Large",
-			414 : "Request-URI Too Long",
+			400 : 'Bad Request',
+			401 : 'Unauthorized',
+			403 : 'Forbidden',
+			404 : 'Not Found',
+			405 : 'Method Not Allowed',
+			406 : 'Not Acceptable',
+			413 : 'Request Entity Too Large',
+			414 : 'Request-URI Too Long',
 
-			500 : "Internal Server Error",
-			501 : "Not Implemented",
-			502 : "Bad gateway",
-			503 : "Service unavailable",
-			504 : "Gateway Timeout",
-			507 : "Insufficient Storage"
+			500 : 'Internal Server Error',
+			501 : 'Not Implemented',
+			502 : 'Bad gateway',
+			503 : 'Service unavailable',
+			504 : 'Gateway Timeout',
+			507 : 'Insufficient Storage'
 		},
 
 		// http://en.wikipedia.org/wiki/List_of_HTTP_header_fields
